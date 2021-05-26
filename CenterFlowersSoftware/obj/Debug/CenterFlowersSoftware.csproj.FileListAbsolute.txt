@@ -1,0 +1,14 @@
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\bin\Debug\CenterFlowersSoftware.exe.config
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\bin\Debug\CenterFlowersSoftware.exe
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\bin\Debug\CenterFlowersSoftware.pdb
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\obj\Debug\CenterFlowersSoftware.frmMenu.resources
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\obj\Debug\CenterFlowersSoftware.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\obj\Debug\CenterFlowersSoftware.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\obj\Debug\CenterFlowersSoftware.exe
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\obj\Debug\CenterFlowersSoftware.pdb
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\obj\Debug\CenterFlowersSoftware.frmUsuario.resources
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\obj\Debug\CenterFlowersSoftware.frmRecuperarPass.resources
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\obj\Debug\CenterFlowersSoftware.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\obj\Debug\CenterFlowersSoftware.frmCrearUsuario.resources
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\obj\Debug\CenterFlowersSoftware.frmMercaderia.resources
+C:\Users\Usuario\Desktop\Software Facultad\CenterFlowersSoftware\obj\Debug\CenterFlowersSoftware.frmProveedores.resources

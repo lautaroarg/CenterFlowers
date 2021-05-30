@@ -36,7 +36,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.txtIngresar = new System.Windows.Forms.Button();
             this.lkOlvido = new System.Windows.Forms.LinkLabel();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -105,7 +104,7 @@
             // lkOlvido
             // 
             this.lkOlvido.AutoSize = true;
-            this.lkOlvido.Location = new System.Drawing.Point(120, 300);
+            this.lkOlvido.Location = new System.Drawing.Point(293, 301);
             this.lkOlvido.Name = "lkOlvido";
             this.lkOlvido.Size = new System.Drawing.Size(106, 13);
             this.lkOlvido.TabIndex = 6;
@@ -113,23 +112,11 @@
             this.lkOlvido.Text = "Olvide mi contraseña";
             this.lkOlvido.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lkOlvido_LinkClicked);
             // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(321, 300);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(69, 13);
-            this.linkLabel1.TabIndex = 7;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Crear usuario";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
             // frmUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(541, 418);
-            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.lkOlvido);
             this.Controls.Add(this.txtIngresar);
             this.Controls.Add(this.pictureBox3);
@@ -156,6 +143,5 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button txtIngresar;
         private System.Windows.Forms.LinkLabel lkOlvido;
-        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

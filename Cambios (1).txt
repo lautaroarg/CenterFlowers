@@ -1,3 +1,0 @@
-Cambios realizados:
-El formulario de arranque es el Inicio de usuario.
-El crear usuario dentro del Inicio de usuario fue sacado.(Se crea desde el menu)

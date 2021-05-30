@@ -87,6 +87,7 @@
     <Compile Include="RecuperarPass.Designer.cs">
       <DependentUpon>RecuperarPass.cs</DependentUpon>
     </Compile>
+    <Compile Include="UsuarioMetodo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

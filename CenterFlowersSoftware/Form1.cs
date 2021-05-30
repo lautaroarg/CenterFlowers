@@ -33,5 +33,11 @@ namespace CenterFlowersSoftware
         {
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmProveedores ofrmProveedores = new frmProveedores();
+            ofrmProveedores.Show();
+        }
     }
 }

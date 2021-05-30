@@ -12,7 +12,7 @@ namespace CenterFlowersSoftware
    internal class connection
     {
         private SqlConnection sCon = new SqlConnection();
-        private string conn = "Data Source=DESKTOP-OJTKK35\\SQLEXPRESS;Integrated Security=SSPI;Initial catalog=Instituto";
+        private string conn = "Data Source=DESKTOP-OJTKK35\\SQLEXPRESS;Integrated Security=SSPI;Initial catalog=Center.flowers";
         public SqlConnection conectar()
         {
             try

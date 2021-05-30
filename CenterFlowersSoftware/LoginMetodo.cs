@@ -13,7 +13,7 @@ namespace CenterFlowersSoftware
             #region metodos
             public DataTable ConsultaLogin(string usu, string pass)
             {
-                string sqlStr = "Select usuario,contraseña from Login where usuario='" + usu + "' and contraseña ='" + pass + "'";
+                string sqlStr = "Select ID_dni,contraseña from Usuario where ID_dni='" + usu + "' and contraseña ='" + pass + "'";
                 var da = new SqlDataAdapter(sqlStr, conectar());
                 var ds = new DataSet();
                 da.Fill(ds);

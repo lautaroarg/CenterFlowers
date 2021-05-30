@@ -19,14 +19,19 @@ namespace CenterFlowersSoftware
 
         private void btnUsuario_Click(object sender, EventArgs e)
         {
-            frmUsuario ofrmUsuario = new frmUsuario();
-            ofrmUsuario.Show();
+            frmCrearUsuario ofrmCrearUsuario = new frmCrearUsuario();
+            ofrmCrearUsuario.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             frmMercaderia oMercaderia = new frmMercaderia();
             oMercaderia.Show();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

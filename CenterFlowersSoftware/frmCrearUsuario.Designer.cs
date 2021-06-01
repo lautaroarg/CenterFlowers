@@ -58,6 +58,7 @@
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.dgvUsuario = new System.Windows.Forms.DataGridView();
+            this.btnRefrescar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuario)).BeginInit();
             this.SuspendLayout();
             // 
@@ -269,7 +270,7 @@
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(22, 548);
+            this.btnRegistrar.Location = new System.Drawing.Point(55, 593);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(171, 72);
             this.btnRegistrar.TabIndex = 29;
@@ -289,16 +290,17 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(264, 548);
+            this.btnModificar.Location = new System.Drawing.Point(312, 593);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(171, 72);
             this.btnModificar.TabIndex = 31;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(507, 548);
+            this.btnEliminar.Location = new System.Drawing.Point(552, 593);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(171, 72);
             this.btnEliminar.TabIndex = 32;
@@ -314,11 +316,22 @@
             this.dgvUsuario.TabIndex = 33;
             this.dgvUsuario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // btnRefrescar
+            // 
+            this.btnRefrescar.Location = new System.Drawing.Point(824, 593);
+            this.btnRefrescar.Name = "btnRefrescar";
+            this.btnRefrescar.Size = new System.Drawing.Size(171, 72);
+            this.btnRefrescar.TabIndex = 34;
+            this.btnRefrescar.Text = "Refrescar";
+            this.btnRefrescar.UseVisualStyleBackColor = true;
+            this.btnRefrescar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
             // frmCrearUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1364, 749);
+            this.Controls.Add(this.btnRefrescar);
             this.Controls.Add(this.dgvUsuario);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificar);
@@ -391,5 +404,6 @@
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.DataGridView dgvUsuario;
+        private System.Windows.Forms.Button btnRefrescar;
     }
 }
